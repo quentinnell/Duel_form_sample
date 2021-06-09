@@ -391,7 +391,8 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: #056CF2;
+  /* background-color: rgba(255, 255, 255, 0.2); */
   box-shadow: 0px 5px 45px rgba(0, 0, 0, 0.15);
 }
 
@@ -459,6 +460,8 @@ h3 {
 
 .formBx .signinForm {
   transition-delay: 0.25s;
+  background-color: whitesmoke;
+
 }
 
 .formBx.active .signinForm {
@@ -469,7 +472,7 @@ h3 {
 .formBx .signupForm {
   left: 100%;
   transition-delay: 0s;
-
+  background-color: whitesmoke;
 }
 
 .formBx.active .signupForm {
@@ -486,7 +489,7 @@ h3 {
 
 .formBx .form form input {
   margin-bottom: 20px;
-  color: #333;
+  color: #222;
   background-color: transparent;
   padding: 10px;
   border-bottom: 1px solid #333;
@@ -515,7 +518,7 @@ h3 {
 
 .formBx .form form select {
   margin-bottom: 20px;
-  color: #333;
+  color: #222;
   background-color: transparent;
   padding: 10px;
   border-bottom: 1px solid #333;
@@ -526,7 +529,7 @@ h3 {
 
 .formBx .form form textarea {
   margin-bottom: 20px;
-  color: #333;
+  color: #222;
   background-color: transparent;
   padding: 10px;
   border-bottom: 1px solid #333;
